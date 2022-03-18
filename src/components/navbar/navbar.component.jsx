@@ -9,21 +9,21 @@ const Navbar = () => (
             <li className="relative group">
               <button
                 type="button"
-                className="px-2 py-1 rounded-md group-hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600">
+                className="px-2 py-1 rounded-md group-hover:text-primary-500 focus:text-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600">
                 Portfolio
               </button>
             </li>
             <li className="relative group">
               <button
                 type="button"
-                className="px-2 py-1 rounded-md group-hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600">
+                className="px-2 py-1 rounded-md group-hover:text-primary-500 focus:text-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600">
                 Blog
               </button>
             </li>
             <li className="relative group">
               <button
                 type="button"
-                className="px-2 py-1 rounded-md group-hover:text-primary-600 focus:text-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600">
+                className="px-2 py-1 rounded-md group-hover:text-primary-500 focus:text-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600">
                 Contact
               </button>
             </li>
