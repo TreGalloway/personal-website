@@ -31,6 +31,22 @@ const Navbar = () => (
         </div>
         <div className="flex justify-center mt-8 space-x-6">
           <a
+            href="https://www.youtube.com/channel/UCRQPGu1zovYhIdP86WCTKLw"
+            className="text-emerald-400 hover:text-emerald-600">
+            <span className="sr-only">YouTube</span>
+            <svg
+              className="w-8 h-8"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true">
+              <path
+                fillRule="evenodd"
+                d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </a>
+          <a
             href="https://www.instagram.com/bytregalloway/"
             className="text-emerald-400 hover:text-emerald-600">
             <span className="sr-only">Instagram</span>

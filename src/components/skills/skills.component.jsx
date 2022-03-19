@@ -3,16 +3,16 @@ import React from 'react';
 const SkillSection = () => {
   return (
     <div className="pb-24 bg-gray-50 ">
-      <h1 className="flex flex-col items-center justify-center max-w-2xl pb-24 mx-auto text-5xl text-center text-gray-800 underline decoration-solid decoration-emerald-500 bg-gray-50 ">
+      <h1 className="flex flex-col items-center justify-center max-w-2xl pb-20 mx-auto text-4xl text-center text-gray-800 underline decoration-solid decoration-emerald-500 bg-gray-50 ">
         Skills
       </h1>
-      <div className="grid grid-cols-6 justify-items-center">
-        <div className="pb-10">
+      <div className="flex flex-wrap justify-items-center">
+        <div className="p-4 animate-wiggle">
           {' '}
           {/* JavaScript */}
           <svg
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             viewBox="0 0 256 256"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -27,12 +27,12 @@ const SkillSection = () => {
             />
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* HTML */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#E14E1D" rx="60" />
@@ -50,12 +50,12 @@ const SkillSection = () => {
             />
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {' '}
           {/* CSS */}
           <svg
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             viewBox="0 0 256 256"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -78,12 +78,12 @@ const SkillSection = () => {
             />
           </svg>{' '}
         </div>
-        <div>
+        <div className="p-4 animate-wiggle">
           {/* React */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#242938" rx="60" />
@@ -114,12 +114,12 @@ const SkillSection = () => {
             />
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* Python */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#242938" rx="60" />
@@ -155,12 +155,12 @@ const SkillSection = () => {
             </defs>
           </svg>
         </div>
-        <div>
+        <div className="p-4 animate-wiggle">
           {/* Tailwind CSS */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#242938" rx="60" />
@@ -184,12 +184,12 @@ const SkillSection = () => {
             </defs>
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* SASS */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#CD6799" rx="60" />
@@ -211,11 +211,11 @@ const SkillSection = () => {
             </defs>
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* Styled Components */}
           <svg
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             viewBox="0 0 256 256"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -277,13 +277,13 @@ const SkillSection = () => {
             </defs>
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {' '}
           {/* Git */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#F03C2E" rx="60" />
@@ -305,12 +305,12 @@ const SkillSection = () => {
             </defs>
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* Node.js */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#242938" rx="60" />
@@ -324,12 +324,12 @@ const SkillSection = () => {
             />
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* VS-Code */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#242938" rx="60" />
@@ -351,12 +351,12 @@ const SkillSection = () => {
             />
           </svg>
         </div>
-        <div>
+        <div className="p-4">
           {/* Markdown */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             fill="none"
             viewBox="0 0 256 256">
             <rect width="256" height="256" fill="#242938" rx="60" />

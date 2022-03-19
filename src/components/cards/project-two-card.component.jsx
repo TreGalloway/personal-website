@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectTwo = () => {
   return (
-    <div className="transition duration-500 ease-in-out delay-150 transform rounded-lg shadow-xl bg-gray-50 w-96 hover:scale-110 ">
+    <div className="transition duration-500 ease-in-out delay-150 transform rounded-lg shadow-xl md:w-6 bg-gray-50 w-96 hover:scale-110 ">
       <a href="/">
         <img
           className="object-cover w-full rounded-t-xl h-60"
