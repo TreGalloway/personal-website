@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player';
 import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaSass } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
-import coffeeshop from '../assets/images/coffeeshop.jpg';
 
 const BOOTSTRAP_FOR_SKILL_ICON =
   'text-4xl mx-auto inline-block  text-primary-400';
@@ -64,15 +63,6 @@ const data = {
   projects: [
     {
       title: 'Crown Clothing',
-      image: (
-        <img
-          alt=""
-          src={
-            require('/Users/tre/personal-website/src/assets/images/coffeeshop.jpg')
-              .default
-          }
-        />
-      ),
       description:
         '💻 A E-commerce website made with React, Redux, Firebase, Styled-Components.',
       tags: ['ecommerce', 'redux', 'reactjs', 'styled-components', 'firebase'],
@@ -81,7 +71,6 @@ const data = {
     },
     {
       title: 'CoastalSoulRv',
-      image: <img alt="" src="https://unsplash.com/photos/p-ot9YnTlRQ" />,
       description:
         '🚎 A website I made for family friend with React + TailwindCSS.',
       tags: ['website', 'rental', 'React', 'tailwindcss'],
@@ -90,7 +79,6 @@ const data = {
     },
     {
       title: 'Face Recongiton Brain',
-      image: <img alt="" src={coffeeshop} />,
       description: '🧠 Quick Project using face recognition api.',
       tags: ['api', 'react'],
       github: 'https://github.com/TreGalloway/face-recognition-brain',
@@ -98,7 +86,6 @@ const data = {
     },
     {
       title: 'Robo Friends',
-      image: <img alt="" src={coffeeshop} />,
       description: '🤖 Fun Robot name search.',
       tags: ['api', 'react'],
       github: 'https://github.com/TreGalloway/robofriends',
