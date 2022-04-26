@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import ProfileCard from './components/card/profilecard.component';
+import ProfileCard from './components/profile/profilecard.component';
 import About from './components/about/about.component';
 import Projects from './components/projects/project.component';
+import Skills from './components/skills/skills.component';
 import data from './data/data';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,6 +20,7 @@ function App() {
       </div>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
         <About title={data.about.title} description={data.about.description} />
+        <Skills skills={data.skills} />
         <Projects projects={data.projects} />
       </div>
     </div>

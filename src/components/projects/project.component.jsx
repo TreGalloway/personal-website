@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from '../card/projectcard.component';
+
 const Projects = ({ projects }) => {
   return (
     <div>

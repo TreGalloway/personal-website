@@ -6,15 +6,16 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { SiHashnode } from 'react-icons/si';
 
 function ProfileCard({
   name,
   title,
-  social: { github, linkedin, twitter, youtube, instagram, email },
+  social: { github, linkedin, twitter, youtube, instagram, email, hashnode },
 }) {
   return (
     <div className="w-full">
-      <div className="flex flex-col justify-center max-w-xs p-5 mx-auto bg-white shadow-xl rounded-xl">
+      <div className="flex flex-col justify-center max-w-sm mx-auto bg-white shadow-xl p-7 rounded-xl">
         <div className="">
           <img
             className="w-32 mx-auto rounded-full shadow-xl"
@@ -59,6 +60,12 @@ function ProfileCard({
               href={instagram}>
               <FaInstagram />
               <span class="sr-only">Instagram</span>
+            </a>
+            <a
+              className="p-1 m-1 text-xl text-blue-500 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-blue-500 hover:text-white"
+              href={'https://tregalloway.hashnode.dev/'}>
+              <SiHashnode />
+              <span class="sr-only">Blog</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-teal-500 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-teal-500 hover:text-white"
