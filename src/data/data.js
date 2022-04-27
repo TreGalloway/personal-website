@@ -67,7 +67,7 @@ const data = {
         '💻 A E-commerce website made with React, Redux, Firebase, Styled-Components.',
       tags: ['ecommerce', 'redux', 'reactjs', 'styled-components', 'firebase'],
       github: 'https://github.com/TreGalloway/crwn-clothing-v2',
-      live: '',
+      live: 'https://unrivaled-kangaroo-a9b9e7.netlify.app/',
     },
     {
       title: 'CoastalSoulRv',
@@ -75,21 +75,21 @@ const data = {
         '🚎 A website I made for family friend with React + TailwindCSS.',
       tags: ['website', 'rental', 'React', 'tailwindcss'],
       github: 'https://github.com/TreGalloway/rv-site',
-      live: '',
+      live: 'https://coastalsoulrv.com/',
     },
     {
       title: 'Face Recongiton Brain',
       description: '🧠 Quick Project using face recognition api.',
       tags: ['api', 'react'],
       github: 'https://github.com/TreGalloway/face-recognition-brain',
-      live: '',
+      live: 'https://infallible-joliot-383dc1.netlify.app/',
     },
     {
       title: 'Robo Friends',
       description: '🤖 Fun Robot name search.',
       tags: ['api', 'react'],
       github: 'https://github.com/TreGalloway/robofriends',
-      live: '',
+      live: 'https://nifty-euclid-564210.netlify.app/',
     },
   ],
 };
