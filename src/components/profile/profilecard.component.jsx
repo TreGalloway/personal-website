@@ -35,43 +35,43 @@ function ProfileCard({
               className="p-1 m-1 text-xl text-gray-800 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-gray-800 hover:text-white"
               href={github}>
               <FaGithub />
-              <span class="sr-only">Github</span>
+              <span className="sr-only">Github</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-blue-600 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-blue-600 hover:text-white"
               href={linkedin}>
               <FaLinkedin />
-              <span class="sr-only">linkedin</span>
+              <span className="sr-only">linkedin</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-red-600 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-red-600 hover:text-white"
               href={youtube}>
               <FaYoutube />
-              <span class="sr-only">YouTube</span>
+              <span className="sr-only">YouTube</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-blue-500 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-blue-500 hover:text-white"
               href={twitter}>
               <FaTwitter />
-              <span class="sr-only">Twitter</span>
+              <span className="sr-only">Twitter</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-pink-600 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-pink-600 hover:text-white"
               href={instagram}>
               <FaInstagram />
-              <span class="sr-only">Instagram</span>
+              <span className="sr-only">Instagram</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-blue-500 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-blue-500 hover:text-white"
               href={'https://tregalloway.hashnode.dev/'}>
               <SiHashnode />
-              <span class="sr-only">Blog</span>
+              <span className="sr-only">Blog</span>
             </a>
             <a
               className="p-1 m-1 text-xl text-teal-500 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-teal-500 hover:text-white"
               href={'https://mail.google.com/mail/?view=cm&fs=1&to=' + email}>
               <FaRegEnvelope />
-              <span class="sr-only">Email</span>
+              <span className="sr-only">Email</span>
             </a>
           </div>
         </div>
